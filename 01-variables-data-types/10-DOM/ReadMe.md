@@ -1,0 +1,4 @@
+Todo list app: 
+#HTML
+I made a div with the class wrapper, which contains a div with the class container and the Id list-container.
+This container contains an h1 with the class heading Id main-heading and is also home to a div with the class of clock and Id clock, and dynamically displays the current time in the top right corner of the app. The wrapper div also contains another div which is home to an input field and a button and ul element where li elements are are dynamically created and display with the text values captured from the input field. I'm also using ion icons in this project as are represented by the script tags at the bottom of the html. 

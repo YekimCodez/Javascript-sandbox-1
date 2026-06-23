@@ -1,0 +1,116 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+.list-home {
+    display: flex;
+    gap: 0.5em
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid blue;
+    padding: 1rem;
+}
+
+.card {
+    width: 196px;
+    height: 200px;
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* .heading {
+    display:flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1em;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9; 
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    gap: 0.5rem;   
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+}
+
+.todays-date {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.error {
+    border: 1px solid red;
+} */

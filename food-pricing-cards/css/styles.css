@@ -1,0 +1,84 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #e9eaee;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.pricing-card {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+.pricing-card img {
+    display: block;
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+
+.card-content {
+    padding: 0.5em;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #555;    
+    max-width: 350px;
+}
+
+.card-content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1em;
+    margin: 0.2em 0;
+}
+
+.cart-icon {
+    font-size: 1.2em;   
+    border-radius: 50%;
+    background: #3157d5;
+    color: #fff;
+    padding: 0.2em;
+    transition: background 0.3s;
+}
+
+.cart-icon:hover {
+    background: #1a39ac;
+    cursor: pointer;
+}
+
+.order-btn {
+    border: none;
+    background: #3157d5;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.order-btn:hover {
+    background: #1a39ac;
+    cursor: pointer;
+}

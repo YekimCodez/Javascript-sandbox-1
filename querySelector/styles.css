@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.sub-list,
+.main_list {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-list-items,
+.sub-list-items {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #d0d0d0;
+    list-style: none;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #fff;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="addElements.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <section id="header-home" class="container">
+                <span id="todays_date" class="todays-date">Today's Date</span>
+                <h1 class="heading" id="main-heading">My ToDo List
+                <div id="clock" class="clock">
+                    <span id="hours"></span>h
+                    <span id="minutes"></span>m
+                    <span id="seconds"></span>s
+                </div>
+            </h1>
+        </section>       
+        <section class="inputs-home container">
+            <input type="text" id="item-input" class="input" placeholder="Enter item" required>
+            <button id="add-button" class="btn">Add item
+                <ion-icon name="add-circle-outline"></ion-icon>
+            </button>
+        </section>       
+        <section class="lists-section container">
+            <ul class="list-home">
+            </ul>
+        </section>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
