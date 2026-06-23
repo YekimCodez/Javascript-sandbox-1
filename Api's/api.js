@@ -13,16 +13,16 @@ function getData() {
         const dataContainer = document.createElement('div');
         const dataElement = document.createElement('p');
 
+        dataContainer.classList.add('data-container');
+        dataElement.classList.add('data-element');
+
         dataElement.textContent = data;
         dataContainer.appendChild(dataElement);
         document.body.appendChild(dataContainer);
 
-        const container = document.querySelectorAll('div');
-
-        container.forEach((div) => {
-            div.classList.add('data-container');
-            console.log('Data container added: ', div);
-        });        
+        console.log('Data container added: ', dataContainer);
+        console.log('Data element added: ', dataElement);
+        
     });
 }
 
