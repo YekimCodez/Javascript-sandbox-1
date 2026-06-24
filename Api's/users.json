@@ -6,7 +6,7 @@
     "email": "Sincere@april.biz",
     "role": "Admin",
     "isActive": true,
-    "skills": ["JavaScript", "Python", "SQL"]
+    "skills": ["JavaScript", " Python", " SQL"]
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "email": "Shanna@melissa.tv",
     "role": "Editor",
     "isActive": false,
-    "skills": ["UI/UX", "Figma", "HTML"]
+    "skills": ["UI/UX", " Figma", " HTML"]
   },
   {
     "id": 3,
@@ -24,6 +24,6 @@
     "email": "Nathan@yesenia.net",
     "role": "User",
     "isActive": true,
-    "skills": ["React", "Node.js", "MongoDB"]
+    "skills": ["React", " Node.js", " MongoDB"]
   }
 ]
